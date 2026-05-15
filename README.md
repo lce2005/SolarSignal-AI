@@ -1,4 +1,4 @@
-# ☀️ Solar-n8n-FinFlow: Intelligent Market Intelligence Pipeline
+# ☀️ Solar-n8n-StockAgent: Intelligent Market Intelligence Pipeline
 > **2026 Upstage Low-Code AI Challenge | Team Project**
 
 [![Upstage Solar](https://img.shields.io/badge/AI-Upstage%20Solar-orange)](https://www.upstage.ai/)
