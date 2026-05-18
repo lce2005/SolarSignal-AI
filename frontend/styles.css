@@ -1,0 +1,54 @@
+/* --- 주식 투자 시그널 전용 배지 스타일 스타일 시트 하단에 추가 --- */
+.badge.positive {
+  color: #137333;
+  background: #e6f4ea;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.badge.negative {
+  color: #c5221f;
+  background: #fce8e6;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.badge.neutral {
+  color: #3c4043;
+  background: #f1f3f4;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* --- 주식/워크플로우 금융 시그널 배지 스타일 확장 --- */
+.badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.badge.strong_buy, .badge.positive {
+  color: #15803d;
+  background-color: #dcfce7;
+}
+
+.badge.buy {
+  color: #1d4ed8;
+  background-color: #dbeafe;
+}
+
+.badge.hold, .badge.neutral {
+  color: #4b5563;
+  background-color: #f3f4f6;
+}
+
+.badge.sell, .badge.negative {
+  color: #b91c1c;
+  background-color: #fee2e2;
+}
+
+.badge.strong_sell {
+  color: #ffffff;
+  background-color: #b91c1c;
+}
