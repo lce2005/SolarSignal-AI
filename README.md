@@ -1,4 +1,4 @@
-# ☀️ Solar-n8n-StockAgent: Intelligent Market Intelligence Pipeline
+# Solar-n8n-StockAgent: Intelligent Market Intelligence Pipeline
 > **2026 Upstage Low-Code AI Challenge | Team Project**
 
 [![Upstage Solar](https://img.shields.io/badge/AI-Upstage%20Solar-orange)](https://www.upstage.ai/)
@@ -12,20 +12,20 @@
 
 ---
 
-## 📌 Problem & Solution
-### ❌ 기존 방식의 한계
+## Problem & Solution
+### 기존 방식의 한계
 * **정보의 파편화**: 뉴스 기사뿐만 아니라 증권사 PDF, 실적 발표 이미지 등 분석해야 할 데이터 형식이 너무 다양함.
 * **수동 분석의 피로도**: 수백 페이지의 IR 자료와 리포트를 일일이 읽고 핵심 수치를 추출하는 데 막대한 시간 소요.
 * **단순 텍스트의 한계**: 요약 결과가 단순 줄글로 제공되어, 데이터베이스화하거나 2차 자동화에 활용하기 어려움.
 
-### ✅ Solar-n8n-FinFlow의 해결책
+### Solar-n8n-FinFlow의 해결책
 * **Multi-modal Parsing**: **Upstage Document Parse**를 통해 이미지/PDF 속의 표와 차트를 Markdown으로 정교하게 추출.
 * **Structured Reasoning**: **Solar Pro2** 모델을 활용해 요약문을 넘어서는 **JSON 형태의 정량적 투자 지표** 도출.
 * **Zero-Touch Automation**: n8n 워크플로우를 통해 수집-분석-구조화-배포의 전 과정을 무인 자동화.
 
 ---
 
-## 🛠 System Architecture
+## System Architecture
 
 
 
@@ -37,7 +37,7 @@
 
 ---
 
-## ✨ Key Technical Features
+## Key Technical Features
 
 ### 1. Document AI 기반 실무형 분석
 단순 텍스트 기사뿐만 아니라 **기업 실적표(Table)**나 **IR 자료**를 정확히 인식합니다. Upstage Document Parse를 통해 복잡한 표 데이터를 Markdown으로 변환하여 분석의 정밀도를 높였습니다.
