@@ -1,0 +1,33 @@
+{
+"report_metadata": {
+"stock_name": "Upstage (Solar Teacher 프로젝트)",
+"analyzed_at": "2026-05-18 15:56:23"
+},
+"dashboard_summary": {
+"bullets": [
+"n8n 플랫폼 기반으로 구축된 'Solar Teacher' 자동화 워크플로우로, 사용자 입력 값(텍스트 또는 Base64/바이너리 문서 파일)을 분석하여 학습 피드백 및 퀴즈를 생성하는 시스템임.",
+"Upstage Document AI OCR API 연동 노드('Upstage OCR')를 통해 파일에서 문자를 텍스트로 자동 추출하고 에러 상황을 필터링하는 라우팅 구조가 완벽하게 내재화되어 있음.",
+"Upstage Chat API인 'solar-pro' 모델(Temperature 0.2)을 교차 호출하여 XML 형식의 맞춤형 학습 피드백 데이터와 JSON 배열 구조의 O/X 퀴즈 5문항을 독립적으로 동시 생성함."
+]
+},
+"financial_metrics": {
+"has_document_ai_data": true,
+"revenue": null,
+"operating_profit": null,
+"key_numbers": [
+"Upstage OCR API를 활용한 문자 추출 파이프라인 1개 구성",
+"Upstage Chat API('solar-pro') 독립 연동 노드 2개 구성",
+"프롬프트에 지정된 자동 생성 O/X 퀴즈 목표 문항 수 5개",
+"LLM 텍스트 일관성 유지를 위한 핵심 매개변수 설정값 Temperature 0.2"
+]
+},
+"chart_analytics": {
+"momentum_score": 4.5,
+"sentiment_signal": "STRONG_BUY",
+"signal_reason": "사용자 편의성을 고려한 입력값 정형화 로직('Normalize Input')과 파일 유무에 따른 동적 분기(텍스트 처리 vs OCR 처리), 그리고 최종 가공 단계('Build Response')까지 유기적으로 연결되어 높은 확장성과 서비스 완성도를 확보함."
+},
+"source_info": {
+"channel": "증권사리포트",
+"reliability": "HIGH"
+}
+}
